@@ -10,7 +10,7 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-
+    <link href="css/style.css" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -135,8 +135,12 @@
                         <h1 class="panel-title">Test</h1>
                     </div>
                     <div class="panel-body">
-                        <button class="btn btn-success" type="button">Draw</button>
-                        <button class="btn btn-danger" type="button">Clear</button>
+                        <button onclick="drawShape()" class="btn btn-success" type="button">Draw</button>
+                        <button onclick="clearShape()" class="btn btn-danger" type="button">Clear</button>
+                        <div id="mContent">
+                            <!-- My Content -->
+                            
+                        </div>
                     </div>
                 </div>
             </div>
@@ -148,7 +152,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
-    <script src="mjs/01-let.js"></script>
+    <script src="mjs/01-let-01.js"></script>
+    <script src="mjs/01-let-02.js"></script>
 </body>
 
 </html>
