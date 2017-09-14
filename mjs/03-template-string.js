@@ -15,7 +15,7 @@ let todo = {
     name: "Designer",
     status: false
 };
-elm.innerHTML = `<div id="todo-id-${todo.id}">
-                    <i class="${todo.status == true ? "hidden" : ""} glyphicon glyphicon-ok"></i>
-                    <span class="name">${todo.name}</span>
-                </div>`;
+// elm.innerHTML = `<div id="todo-id-${todo.id}">
+                //     <i class="${todo.status == true ? "hidden" : ""} glyphicon glyphicon-ok"></i>
+                //     <span class="name">${todo.name}</span>
+                // </div>`;
