@@ -24,6 +24,6 @@ let todoObj = {
     status: false
 };
 for(let index in todoObj){
-    console.log(index+": "+todoObj[index] );
+    // console.log(index+": "+todoObj[index] );
 }
 /* Chú ý: Đối với một đối tượng chúng ta không sử for of */
