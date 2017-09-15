@@ -27,5 +27,5 @@ var func5 = name => {
 var func5 = () => {
     return ` func5 My name is`;
 }
-console.log(func5());
+// console.log(func5());
 
