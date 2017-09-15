@@ -33,4 +33,4 @@ function caculate(action, ...values){
     }
     return result;
 }
-console.log(caculate("-",1,2,3,4));
+// console.log(caculate("-",1,2,3,4));
